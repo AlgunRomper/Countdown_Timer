@@ -11,6 +11,8 @@
 		A95D08ED2BE264640035A071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D08EC2BE264640035A071 /* ContentView.swift */; };
 		A95D08EF2BE264660035A071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95D08EE2BE264660035A071 /* Assets.xcassets */; };
 		A95D08F32BE264660035A071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95D08F22BE264660035A071 /* Preview Assets.xcassets */; };
+		A95D08FA2BE2650E0035A071 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D08F92BE2650E0035A071 /* Constants.swift */; };
+		A95D08FC2BE265360035A071 /* RollingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D08FB2BE265360035A071 /* RollingText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A95D08EE2BE264660035A071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A95D08F02BE264660035A071 /* CountDown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CountDown.entitlements; sourceTree = "<group>"; };
 		A95D08F22BE264660035A071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A95D08F92BE2650E0035A071 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A95D08FB2BE265360035A071 /* RollingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A95D08EA2BE264640035A071 /* CountDownApp.swift */,
 				A95D08EC2BE264640035A071 /* ContentView.swift */,
+				A95D08F92BE2650E0035A071 /* Constants.swift */,
+				A95D08FB2BE265360035A071 /* RollingText.swift */,
 				A95D08EE2BE264660035A071 /* Assets.xcassets */,
 				A95D08F02BE264660035A071 /* CountDown.entitlements */,
 				A95D08F12BE264660035A071 /* Preview Content */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95D08FC2BE265360035A071 /* RollingText.swift in Sources */,
 				A95D08ED2BE264640035A071 /* ContentView.swift in Sources */,
 				A95D08EB2BE264640035A071 /* CountDownApp.swift in Sources */,
+				A95D08FA2BE2650E0035A071 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
